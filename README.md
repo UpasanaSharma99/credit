@@ -7,10 +7,13 @@ To find the credit card type
 int rev(long num);
 void checkcard(long num);
 
+long num=0;
+int count=0;
+
 int main()
 {
-    rev();
-    checkcard();
+    rev(n);
+    checkcard(ans);
 }
 
 int rev(long num)
@@ -30,7 +33,7 @@ int rev(long num)
 
 void checkcard(long num)
 {
-    int c=rev(count);
+    int count=rev(count);
     num=rev(num);
     int sum=0,var=0;
     long temp=0;
@@ -74,6 +77,5 @@ void checkcard(long num)
                     {
                         printf("Invalid\n");
                     }
-
     }
 }
